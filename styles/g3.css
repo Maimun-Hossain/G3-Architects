@@ -5,3 +5,53 @@
     margin: 0;
     padding: 0;
 }
+.btn-pimary{
+    border-radius: 8px;
+    border: none;
+    padding: 20px 25px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--dark-01, #131313);
+}
+nav > ul{
+    display: flex;
+}
+nav > ul > li{
+    list-style: none;
+    margin: 0 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--dark-02, #424242);
+}
+/* banner part */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--dark-01, #131313);
+}
+.banner-dis{
+    color: var(--dark-03, #727272);
+}
