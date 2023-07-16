@@ -9,6 +9,11 @@
     color: var(--dark-03, #727272);
     margin-bottom: 20px;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--dark-01, #131313);
+}
 .btn-pimary{
     border-radius: 8px;
     border: none;
@@ -28,11 +33,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: var(--dark-01, #131313);
 }
 nav > ul{
     display: flex;
